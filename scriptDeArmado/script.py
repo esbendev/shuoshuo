@@ -25,6 +25,15 @@ contenidoHTMLQuiz = """<!DOCTYPE html>
     <link href=\"https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&family=Roboto:wght@100;400&display=swap\" rel=\"stylesheet\">
     <title>Quiz</title>
     <link rel=\"stylesheet\" href=\"../quiz-style.css\">
+    <!-- Google tag (gtag.js) -->
+    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-475SSTM0WC\"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+
+    gtag('config', 'G-475SSTM0WC');
+    </script>
 </head>
 <body>
     <header>
@@ -79,6 +88,15 @@ contenidoHTMLIndex = """<!DOCTYPE html>
     <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap\" rel=\"stylesheet\">
     <title>Chinese Practice</title>
     <link rel=\"stylesheet\" href=\"index-style.css\">
+    <!-- Google tag (gtag.js) -->
+    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-475SSTM0WC\"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+
+    gtag('config', 'G-475SSTM0WC');
+    </script>
 </head>
 <body>
     <!-- cargar menu con js usando lista de páginas -->
